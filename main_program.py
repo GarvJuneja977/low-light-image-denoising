@@ -8,8 +8,8 @@ from bm3d import bm3d
 from required_functions import refine_illumination_map, apply_gamma_correction, perform_bm3d_denoising
 
 
-input_folder = '/content/drive/MyDrive/garvproject/low'
-output_folder = '/content/drive/MyDrive/garvproject/high'
+input_folder = 'low-light-images'
+output_folder = 'denoised-images'
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
