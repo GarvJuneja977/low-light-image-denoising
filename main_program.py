@@ -62,6 +62,6 @@ for filename in image_files:
 
     # Save denoised image
     denoised_image_bgr = cv2.cvtColor(denoised_image * 255, cv2.COLOR_RGB2BGR)
-    cv2.imwrite(os.path.join(output_folder, 'processed_' + filename), denoised_image_bgr)
+    cv2.imwrite(os.path.join(output_folder, 'predicted_' + filename), denoised_image_bgr)
 
     plt.show()
