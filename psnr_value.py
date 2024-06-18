@@ -50,7 +50,7 @@ def calculate_psnr_between_folders(input_folder, output_folder):
 
 # Example usage:
 if __name__ == '__main__':
-    input_folder = '/content/drive/MyDrive/garvproject/low'
-    output_folder = '/content/drive/MyDrive/garvproject/high'
+    input_folder = 'low-light-images'
+    output_folder = 'denoised-images'
 
     calculate_psnr_between_folders(input_folder, output_folder)
