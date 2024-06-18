@@ -1,3 +1,2 @@
-Usage 
-1) Install Dependencies
-pip install -r requirements.txt
+# Image Enhancement and Quality Assessment
+This project focuses on enhancing low-light images and assessing the quality of the enhanced images using the Peak Signal-to-Noise Ratio (PSNR) metric.
